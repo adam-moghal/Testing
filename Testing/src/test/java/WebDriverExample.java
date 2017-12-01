@@ -64,7 +64,6 @@ public class WebDriverExample {
         WebElement registerLink = webDriver.findElement(By.cssSelector("body > div > center > table > tbody > tr:nth-child(2) > td > div > center > table > tbody > tr > td:nth-child(2) > p > small > a:nth-child(6)"));
         registerLink.click();
 
-
         String username = rowString.get(0);
         String password = rowString.get(1);
         String expectedResult = rowString.get(2);

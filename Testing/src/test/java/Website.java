@@ -16,15 +16,11 @@ public class Website {
 
     public void setUsername(String uName) {
 
-
         username.sendKeys(uName);
     }
 
     public void setPassword(String uPassword) {
 
-
         password.sendKeys(uPassword);
     }
-
-
 }
